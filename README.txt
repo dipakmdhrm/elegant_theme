@@ -27,3 +27,5 @@ Help and Support Us
 =====================
 Please consider a small donation 
 Paypal ID : donation@devsaran.com
+
+Slideshow photos by http://www.flickr.com/photos/johanl/
