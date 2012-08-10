@@ -88,9 +88,9 @@
   <?php if (theme_get_setting('slideshow_display','elegant_theme')): ?>
   <div id="slider-wrap">
     <div id="slider_nivo" class="nivoSlider"> 
-      <a href="<?php print theme_get_setting('slide1_url','elegant_theme'); ?>"><img class="slide-image" src="<?php print base_path() . drupal_get_path('theme', 'elegant_theme') . '/images/slide-image-1.jpg'; ?>" width="920" height="360"/></a>
-      <a href="<?php print theme_get_setting('slide2_url','elegant_theme'); ?>"><img class="slide-image" src="<?php print base_path() . drupal_get_path('theme', 'elegant_theme') . '/images/slide-image-2.jpg'; ?>" width="920" height="360"/></a>
-      <a href="<?php print theme_get_setting('slide3_url','elegant_theme'); ?>"><img class="slide-image" src="<?php print base_path() . drupal_get_path('theme', 'elegant_theme') . '/images/slide-image-3.jpg'; ?>" width="920" height="360"/></a>
+      <?php print l('<img class="slide-image" src="' . base_path() . drupal_get_path('theme', 'elegant_theme') . '/images/slide-image-1.jpg" width="920" height="360"/>', check_plain(theme_get_setting('slide1_url','elegant_theme')), array('html' => TRUE, )); ?>
+      <?php print l('<img class="slide-image" src="' . base_path() . drupal_get_path('theme', 'elegant_theme') . '/images/slide-image-2.jpg" width="920" height="360"/>', check_plain(theme_get_setting('slide2_url','elegant_theme')), array('html' => TRUE, )); ?>
+      <?php print l('<img class="slide-image" src="' . base_path() . drupal_get_path('theme', 'elegant_theme') . '/images/slide-image-3.jpg" width="920" height="360"/>', check_plain(theme_get_setting('slide3_url','elegant_theme')), array('html' => TRUE, )); ?>
     </div>
   </div>
   <?php endif; ?>
