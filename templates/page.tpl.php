@@ -66,7 +66,8 @@
 ?>
 <header id="header" class"clearfix">
   <hgroup id="logo">
-    <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a>
+    <?php if ($logo): ?><div id="logoimg"><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><img src="<?php print $logo; ?>"/></a></div><?php endif; ?>
+    <div id="sitename"><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a></div>
   </hgroup>
   <nav id="navigation" role="navigation">
     <div id="main-menu">

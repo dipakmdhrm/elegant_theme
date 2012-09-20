@@ -18,6 +18,7 @@ regions[footer_first]   = First Bottom
 regions[footer_second]  = Second Bottom
 regions[footer_third]   = Third Bottom
 features[] = name
+features[] = logo
 features[] = slogan
 features[] = node_user_picture
 features[] = comment_user_picture
