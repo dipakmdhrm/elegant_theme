@@ -1,0 +1,19 @@
+name: Elegant Theme
+type: theme
+description: Elegant Theme is a premium Drupal 7 theme. Developed by <a href="http://www.devsaran.com">Devsaran.com</a>.
+core: 7.x
+
+# Regions
+regions:
+  sidebar_first: First Sidebar
+  header: Header
+  preface_first: Preface first
+  preface_middle: Preface middle
+  preface_last: Preface last
+  content_top: Content Top
+  content: Content
+  help: Help
+  footer: Footer
+  footer_first: First Bottom
+  footer_second: Second Bottom
+  footer_third: Third Bottom
